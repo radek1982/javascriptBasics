@@ -1,0 +1,32 @@
+
+/* colors 
+background: 12355b
+header: d72638
+menu bg: 087e8b
+links: 3fcfce
+header text: bfd7ea
+content: 0c1821
+footer: 5c6672
+*/
+
+/*Reset */
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background:#12355b ;
+    color:white;
+}
+a {
+    color: #3fcfce;
+}
+
+
+
+.main_content {
+    min-height: 400px;
+    background: #0c1821;
+    color:white;
+}
