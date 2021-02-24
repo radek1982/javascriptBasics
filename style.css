@@ -7,6 +7,8 @@ links: 3fcfce
 header text: bfd7ea
 content: 0c1821
 footer: 5c6672
+code: 1c234a
+text: bfd7e3
 */
 
 /*Reset */
@@ -18,14 +20,63 @@ footer: 5c6672
 body {
     background:#12355b ;
     color:white;
+
 }
 a {
     color: #3fcfce;
 }
+ul {
+    padding-left: 25px;
+}
+p {
+    color: #bfd7e3
+}
 
+code {
+    color: #768edc;
+    font-family: monospace;
+}
 
+h2 {
+    margin: 20px;
+}
+.wrapper {
+    width: 970px;
+}
+.rounded {
+    border-radius: 20px;
+}
+#navigation li.current {
+    list-style-type: none;
+}
+#navigation {
+    background: #087e7b;
+    vertical-align: top ;
+    display: inline-block;
+    min-width:200px;
+}
 
-.main_content {
+#header {
+    background: #d72638;
+    color:#bfd7ea;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+
+#footer {
+    background:#5c6672;
+    height:50px;
+    margin-top:20px;
+}
+
+#footer p {
+    padding:20px;
+}
+
+#main_content {
+    display: inline-block;
+    max-width:730px;
     min-height: 400px;
     background: #0c1821;
     color:white;
